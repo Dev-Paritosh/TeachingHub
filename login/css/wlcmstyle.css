@@ -1,0 +1,90 @@
+body {
+  /* background-color: #E4E9FD; */
+  background-color: rgb(191, 196, 196);
+  line-height: 1.9rem;
+  font-size: 1.3rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.wlcm {
+  text-align: center;
+  padding-top: 70px;
+}
+
+.nav-link {
+  display: inline;
+}
+
+.box {
+  background-color: white;
+  margin-bottom: 8%;
+  margin-top: 2%;
+  padding: 2% 9%;
+  height: 91%;
+  box-shadow: 0;
+  transition-property: box-shadow;
+  transition-duration: 0.7s;
+}
+
+.box:hover,
+.box-lg:hover {
+  box-shadow: 7px 8px 0px -1px #005b8f;
+}
+
+video {
+  float: left;
+  margin: auto 2%;
+}
+
+.vedio {
+  /* margin: 7% 9%; */
+  padding: 5%;
+}
+
+.title {
+  margin-top: 4%;
+  margin-left: 2%;
+}
+
+.discription {
+  margin-top: 1%;
+  margin-right: 15%;
+}
+
+video {
+  /* padding-bottom: 3%; */
+  text-align: center;
+  transition-property: box-shadow;
+  transition-duration: 0.7s;
+}
+
+video:hover {
+  /* box-shadow: 7px 8px 0px -1px #005b8f; */
+  box-shadow: 18px 20px 0px 3px #005b8f;
+}
+
+.video {
+  padding: auto 0;
+  margin: auto;
+}
+
+.like-button {
+  cursor: pointer;
+}
+
+#footer {
+  text-align: center;
+  color: grey;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none !important;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    font-size: 1rem;
+  }
+}

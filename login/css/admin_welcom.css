@@ -1,0 +1,49 @@
+body {
+  background-color: rgb(191, 196, 196);
+  line-height: 1.9rem;
+  /* font-size: 1.3rem; */
+  font-family: "Montserrat", sans-serif;
+}
+
+.box {
+  margin: 100px auto;
+  width: 500px;
+  padding: 30px 25px;
+  background: white;
+  /* text-align: center; */
+  padding: 2% 5%;
+  box-shadow: 15px 16px 14px -2px #005b8f;
+  border-radius: 15px;
+  transition-property: box-shadow;
+  transition-duration: 1s;
+}
+@media screen and (max-width: 500px) {
+  .box {
+    margin: 100px auto;
+    width: 300px;
+    padding: 30px 25px;
+    background: white;
+
+    /* text-align: center; */
+    padding: 2% 5%;
+    box-shadow: 15px 16px 14px -2px #005b8f;
+    border-radius: 15px;
+    transition-property: box-shadow;
+    transition-duration: 1s;
+  }
+  .textarea {
+    width: 60%;
+  }
+}
+
+.box:hover {
+  box-shadow: 23px 27px 0px 0px #005b8f;
+}
+
+.form-group {
+  margin: 5%;
+}
+
+.upload {
+  text-align: center;
+}
